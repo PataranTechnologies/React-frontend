@@ -1,0 +1,50 @@
+.studentFormContainer{
+    width: 30%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 4rem auto;
+}
+
+.heading{
+    color: #3636c4;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border: 1px solid #eeeeee;
+    width: 80%;
+    padding: .5rem .75rem;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: inherit;
+    display: block;
+    margin: .5rem auto;
+    transition: all .3s ease;
+}
+
+input[type="text"]:hover{
+    border: 1px solid #dadada;
+}
+
+input[type="text"]:focus{
+    border: 1px solid #3636c4;
+}
+
+.addStudentBtn{
+    background-color: #3636c4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: .75rem 1rem;
+    display: block;
+    cursor: pointer;
+    margin: .75rem auto;
+    transition: opacity .4s ease;
+}
+
+.addStudentBtn:hover{
+    opacity: 0.9;
+}
